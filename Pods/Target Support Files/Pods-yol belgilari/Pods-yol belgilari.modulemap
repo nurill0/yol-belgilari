@@ -1,0 +1,6 @@
+framework module Pods_yol_belgilari {
+  umbrella header "Pods-yol belgilari-umbrella.h"
+
+  export *
+  module * { export * }
+}
