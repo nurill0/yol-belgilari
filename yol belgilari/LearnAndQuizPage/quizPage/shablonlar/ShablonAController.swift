@@ -24,6 +24,7 @@ class ShablonController: UIViewController {
     var score = 0
     
     var question = QuestionData()
+    
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.navigationBar.tintColor = UIColor.white
     }
@@ -59,7 +60,6 @@ class ShablonController: UIViewController {
         navigationController?.popViewController(animated: true)
         
     }
-    
     func congratulateSound() {
         let url = Bundle.main.url(forResource: "congratulation", withExtension: "mp3")
         player = try!AVAudioPlayer(contentsOf: url!)
