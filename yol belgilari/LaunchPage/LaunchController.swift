@@ -7,16 +7,34 @@
 
 import UIKit
 import Lottie
+
+
 class LaunchController: UIViewController {
+    
     var animationView: AnimationView?
     var timer: Timer!
+
+}
+
+
+
+//MARK: Life cycle
+extension LaunchController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initAnimations()
         view.backgroundColor = .white
         initTimer()
-        
     }
+}
+
+
+
+//MARK: function and action
+extension LaunchController {
+    
+    
     private func initAnimations(){
         animationView = .init(name: "launchPage")
         animationView?.frame = view.bounds
@@ -25,10 +43,13 @@ class LaunchController: UIViewController {
         view.addSubview(animationView!)
         animationView?.play()
     }
+    
+    
     func initTimer(){
-       
         timer = Timer.scheduledTimer(timeInterval: 6, target: self, selector: #selector(goWelcomeContoller), userInfo: nil, repeats: true)
     }
+    
+    
     @objc func goWelcomeContoller(){
         let vc = WelcomeController()
         vc.modalPresentationStyle = .fullScreen
@@ -37,11 +58,7 @@ class LaunchController: UIViewController {
         navigationController?.popToRootViewController(animated: true)
         navigationController?.pushViewController(vc, animated: true)
         self.timer.invalidate()
-
-//        present(vc, animated: true) {
-//            self.timer.invalidate()
-//
-//        }
-
     }
+    
+    
 }
