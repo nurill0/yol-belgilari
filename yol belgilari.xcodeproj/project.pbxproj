@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D9E1BFE577DB11B15084E43 /* Pods_yol_belgilari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8BBFE39354FA103F67A481 /* Pods_yol_belgilari.framework */; };
+		0D36C8E0EE29F6D66B72FC9F /* Pods_yol_belgilari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63CE90C8DC0A1588DC006FC /* Pods_yol_belgilari.framework */; };
+		FB049EAB2A5D7F690041A445 /* UIColorextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB049EAA2A5D7F690041A445 /* UIColorextension.swift */; };
+		FB049EAD2A5D7F760041A445 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB049EAC2A5D7F760041A445 /* UIViewExtension.swift */; };
+		FB049EAF2A5D7F810041A445 /* UserdefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB049EAE2A5D7F810041A445 /* UserdefaultsManager.swift */; };
+		FB049EB12A5D7F900041A445 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB049EB02A5D7F900041A445 /* ArrayExtension.swift */; };
+		FB049EB32A5D80F50041A445 /* BaseNavCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB049EB22A5D80F50041A445 /* BaseNavCtrl.swift */; };
+		FB049EB52A5D80FC0041A445 /* GlobalAccessables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB049EB42A5D80FC0041A445 /* GlobalAccessables.swift */; };
+		FB049EB72A5D81070041A445 /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB049EB62A5D81070041A445 /* AppLauncher.swift */; };
 		FB0D7196275BD9790077D203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D7195275BD9790077D203 /* AppDelegate.swift */; };
 		FB0D7198275BD9790077D203 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D7197275BD9790077D203 /* SceneDelegate.swift */; };
 		FB0D719A275BD9790077D203 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D7199275BD9790077D203 /* WelcomeController.swift */; };
@@ -75,9 +82,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6692765E428115B39B7F6DF3 /* Pods-yol belgilari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yol belgilari.release.xcconfig"; path = "Target Support Files/Pods-yol belgilari/Pods-yol belgilari.release.xcconfig"; sourceTree = "<group>"; };
-		8E8BBFE39354FA103F67A481 /* Pods_yol_belgilari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yol_belgilari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA4218B99037131A3F60769A /* Pods-yol belgilari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yol belgilari.debug.xcconfig"; path = "Target Support Files/Pods-yol belgilari/Pods-yol belgilari.debug.xcconfig"; sourceTree = "<group>"; };
+		8B84EAFB99BB522DA7F2B88C /* Pods-yol belgilari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yol belgilari.release.xcconfig"; path = "Target Support Files/Pods-yol belgilari/Pods-yol belgilari.release.xcconfig"; sourceTree = "<group>"; };
+		A63CE90C8DC0A1588DC006FC /* Pods_yol_belgilari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yol_belgilari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1BF9AF10F4B78D792E85DC /* Pods-yol belgilari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yol belgilari.debug.xcconfig"; path = "Target Support Files/Pods-yol belgilari/Pods-yol belgilari.debug.xcconfig"; sourceTree = "<group>"; };
+		FB049EAA2A5D7F690041A445 /* UIColorextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorextension.swift; sourceTree = "<group>"; };
+		FB049EAC2A5D7F760041A445 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FB049EAE2A5D7F810041A445 /* UserdefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserdefaultsManager.swift; sourceTree = "<group>"; };
+		FB049EB02A5D7F900041A445 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		FB049EB22A5D80F50041A445 /* BaseNavCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavCtrl.swift; sourceTree = "<group>"; };
+		FB049EB42A5D80FC0041A445 /* GlobalAccessables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalAccessables.swift; sourceTree = "<group>"; };
+		FB049EB62A5D81070041A445 /* AppLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
 		FB0D7192275BD9790077D203 /* yol belgilari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yol belgilari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0D7195275BD9790077D203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB0D7197275BD9790077D203 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,9 +142,9 @@
 		FB93C895277200710065998F /* InformationIndexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationIndexModel.swift; sourceTree = "<group>"; };
 		FB93C8972772007F0065998F /* InformationIndexExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationIndexExtension.swift; sourceTree = "<group>"; };
 		FB949E692784991B004868CC /* DataShablon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataShablon.swift; sourceTree = "<group>"; };
-		FB9504652785E9DC00060816 /* incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = incorrect.wav; path = Resourses/sounds/incorrect.wav; sourceTree = SOURCE_ROOT; };
-		FB9504662785E9DC00060816 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = correct.wav; path = Resourses/sounds/correct.wav; sourceTree = SOURCE_ROOT; };
-		FB9504692785F05B00060816 /* congratulation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = congratulation.mp3; path = Resourses/sounds/congratulation.mp3; sourceTree = SOURCE_ROOT; };
+		FB9504652785E9DC00060816 /* incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = incorrect.wav; path = "yol belgilari/Core/Sources/incorrect.wav"; sourceTree = SOURCE_ROOT; };
+		FB9504662785E9DC00060816 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = correct.wav; path = "yol belgilari/Core/Sources/correct.wav"; sourceTree = SOURCE_ROOT; };
+		FB9504692785F05B00060816 /* congratulation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = congratulation.mp3; path = "yol belgilari/Core/Sources/congratulation.mp3"; sourceTree = SOURCE_ROOT; };
 		FBB7B6FE276CB4500051FA3D /* LearnController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnController.swift; sourceTree = "<group>"; };
 		FBB7B700276CB4DF0051FA3D /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
 		FBB7B706276CBA1C0051FA3D /* LearnCVExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCVExtension.swift; sourceTree = "<group>"; };
@@ -151,7 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9E1BFE577DB11B15084E43 /* Pods_yol_belgilari.framework in Frameworks */,
+				0D36C8E0EE29F6D66B72FC9F /* Pods_yol_belgilari.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,18 +175,20 @@
 		3DC59075E667B41C6C04C6F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA4218B99037131A3F60769A /* Pods-yol belgilari.debug.xcconfig */,
-				6692765E428115B39B7F6DF3 /* Pods-yol belgilari.release.xcconfig */,
+				DA1BF9AF10F4B78D792E85DC /* Pods-yol belgilari.debug.xcconfig */,
+				8B84EAFB99BB522DA7F2B88C /* Pods-yol belgilari.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		A86138638FEB217CAFA91CA6 /* Frameworks */ = {
+		FB049EA92A5D7DCB0041A445 /* pages */ = {
 			isa = PBXGroup;
 			children = (
-				8E8BBFE39354FA103F67A481 /* Pods_yol_belgilari.framework */,
+				FB5C529C275E914100E7516F /* WelcomePage */,
+				FB75C1242763D7BC00CEE725 /* LearnAndQuizPage */,
+				FB42ECC327770175004BD970 /* LaunchPage */,
 			);
-			name = Frameworks;
+			path = pages;
 			sourceTree = "<group>";
 		};
 		FB0D7189275BD9790077D203 = {
@@ -181,7 +197,7 @@
 				FB0D7194275BD9790077D203 /* yol belgilari */,
 				FB0D7193275BD9790077D203 /* Products */,
 				3DC59075E667B41C6C04C6F8 /* Pods */,
-				A86138638FEB217CAFA91CA6 /* Frameworks */,
+				FE3B98AAC38726ECD70C4F4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,17 +212,9 @@
 		FB0D7194275BD9790077D203 /* yol belgilari */ = {
 			isa = PBXGroup;
 			children = (
-				FB42ECC327770175004BD970 /* LaunchPage */,
-				FB8E43D32764681C00E0D344 /* constants */,
-				FB75C1242763D7BC00CEE725 /* LearnAndQuizPage */,
-				FB75C1232763D64000CEE725 /* view */,
-				FB5C529D275E914F00E7516F /* app */,
-				FB5C529C275E914100E7516F /* WelcomePage */,
-				FB0D719E275BD97A0077D203 /* Assets.xcassets */,
-				FB9504692785F05B00060816 /* congratulation.mp3 */,
-				FB9504662785E9DC00060816 /* correct.wav */,
-				FB9504652785E9DC00060816 /* incorrect.wav */,
 				FB0D71A3275BD97A0077D203 /* Info.plist */,
+				FBE5999B2A5D7D00001C3FD0 /* Core */,
+				FB8E43D32764681C00E0D344 /* constants */,
 			);
 			path = "yol belgilari";
 			sourceTree = "<group>";
@@ -230,15 +238,6 @@
 				FB8E43D6276476FF00E0D344 /* ExtensionForShareRateApp.swift */,
 			);
 			path = WelcomePage;
-			sourceTree = "<group>";
-		};
-		FB5C529D275E914F00E7516F /* app */ = {
-			isa = PBXGroup;
-			children = (
-				FB0D7197275BD9790077D203 /* SceneDelegate.swift */,
-				FB0D7195275BD9790077D203 /* AppDelegate.swift */,
-			);
-			path = app;
 			sourceTree = "<group>";
 		};
 		FB62DAAA276D222F0082F4ED /* WarningPage */ = {
@@ -334,15 +333,6 @@
 			path = shablonlar;
 			sourceTree = "<group>";
 		};
-		FB75C1232763D64000CEE725 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				FB0D719B275BD9790077D203 /* Main.storyboard */,
-				FB0D71A0275BD97A0077D203 /* LaunchScreen.storyboard */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
 		FB75C1242763D7BC00CEE725 /* LearnAndQuizPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,7 +346,6 @@
 		FB8E43D32764681C00E0D344 /* constants */ = {
 			isa = PBXGroup;
 			children = (
-				FB8E43D42764683100E0D344 /* Constants.swift */,
 				FB42ECCB2777343A004BD970 /* AppColors.swift */,
 				FB6E1346278465CF000982FB /* MyButtons.swift */,
 			);
@@ -401,6 +390,62 @@
 			path = controllers;
 			sourceTree = "<group>";
 		};
+		FBE5999B2A5D7D00001C3FD0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FB049EA92A5D7DCB0041A445 /* pages */,
+				FBE5999E2A5D7D14001C3FD0 /* Extensions */,
+				FBE5999D2A5D7D0E001C3FD0 /* Delegate */,
+				FBE5999C2A5D7D06001C3FD0 /* Sources */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FBE5999C2A5D7D06001C3FD0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FB9504692785F05B00060816 /* congratulation.mp3 */,
+				FB9504652785E9DC00060816 /* incorrect.wav */,
+				FB9504662785E9DC00060816 /* correct.wav */,
+				FB0D719E275BD97A0077D203 /* Assets.xcassets */,
+				FB0D719B275BD9790077D203 /* Main.storyboard */,
+				FB0D71A0275BD97A0077D203 /* LaunchScreen.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FBE5999D2A5D7D0E001C3FD0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FB049EB22A5D80F50041A445 /* BaseNavCtrl.swift */,
+				FB049EB42A5D80FC0041A445 /* GlobalAccessables.swift */,
+				FB8E43D42764683100E0D344 /* Constants.swift */,
+				FB049EB62A5D81070041A445 /* AppLauncher.swift */,
+				FB0D7195275BD9790077D203 /* AppDelegate.swift */,
+				FB0D7197275BD9790077D203 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FBE5999E2A5D7D14001C3FD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB049EAC2A5D7F760041A445 /* UIViewExtension.swift */,
+				FB049EAE2A5D7F810041A445 /* UserdefaultsManager.swift */,
+				FB049EB02A5D7F900041A445 /* ArrayExtension.swift */,
+				FB049EAA2A5D7F690041A445 /* UIColorextension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE3B98AAC38726ECD70C4F4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A63CE90C8DC0A1588DC006FC /* Pods_yol_belgilari.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -408,11 +453,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB0D71A6275BD97A0077D203 /* Build configuration list for PBXNativeTarget "yol belgilari" */;
 			buildPhases = (
-				AA20539BAFB14A76D34BB70E /* [CP] Check Pods Manifest.lock */,
+				3B2AD629A32EB98A8CAF8156 /* [CP] Check Pods Manifest.lock */,
 				FB0D718E275BD9790077D203 /* Sources */,
 				FB0D718F275BD9790077D203 /* Frameworks */,
 				FB0D7190275BD9790077D203 /* Resources */,
-				27842F4100AD9B2EF7B1575E /* [CP] Embed Pods Frameworks */,
+				92FFFAEE5D8AD7FCA2D57DDC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -475,24 +520,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27842F4100AD9B2EF7B1575E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-yol belgilari/Pods-yol belgilari-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-yol belgilari/Pods-yol belgilari-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yol belgilari/Pods-yol belgilari-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA20539BAFB14A76D34BB70E /* [CP] Check Pods Manifest.lock */ = {
+		3B2AD629A32EB98A8CAF8156 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,6 +542,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		92FFFAEE5D8AD7FCA2D57DDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yol belgilari/Pods-yol belgilari-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yol belgilari/Pods-yol belgilari-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yol belgilari/Pods-yol belgilari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -521,6 +566,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB049EAB2A5D7F690041A445 /* UIColorextension.swift in Sources */,
 				FBB7B710276CBD340051FA3D /* PrivilegeController.swift in Sources */,
 				FB0D719A275BD9790077D203 /* WelcomeController.swift in Sources */,
 				FB949E6A2784991B004868CC /* DataShablon.swift in Sources */,
@@ -535,16 +581,21 @@
 				FB8541B42776305E00B97683 /* ServiseCell.swift in Sources */,
 				FBB7B712276CBD5C0051FA3D /* ProhibitiveController.swift in Sources */,
 				FB2F01EB2771129A004B1603 /* PrivillegeExtensions.swift in Sources */,
+				FB049EB32A5D80F50041A445 /* BaseNavCtrl.swift in Sources */,
+				FB049EB12A5D7F900041A445 /* ArrayExtension.swift in Sources */,
 				FB93C88A2771F6EA0065998F /* DefinitionCommanderController.swift in Sources */,
 				FB6E1325278442E4000982FB /* QuizExtension.swift in Sources */,
 				FB62DAA7276D10F30082F4ED /* ServiseController.swift in Sources */,
 				FBED7CA4276DBD6C00F44801 /* WarningModel.swift in Sources */,
 				FBB7B701276CB4DF0051FA3D /* QuizController.swift in Sources */,
+				FB049EB52A5D80FC0041A445 /* GlobalAccessables.swift in Sources */,
 				FB8541B62776306D00B97683 /* ServiseModel.swift in Sources */,
 				FB2F01F12771169C004B1603 /* ProhibitiveModel.swift in Sources */,
 				FBED7CA6276DBD7E00F44801 /* WarningExtension.swift in Sources */,
 				FB6E1323278442D6000982FB /* QuizModel.swift in Sources */,
+				FB049EAD2A5D7F760041A445 /* UIViewExtension.swift in Sources */,
 				FB62DAA9276D11470082F4ED /* AdditionalInformationController.swift in Sources */,
+				FB049EB72A5D81070041A445 /* AppLauncher.swift in Sources */,
 				FBE2B66E2770495C00254000 /* DefinitionWarningController.swift in Sources */,
 				FB93C8982772007F0065998F /* InformationIndexExtension.swift in Sources */,
 				FB42ECBE2776EEFB004BD970 /* AdditionalCell.swift in Sources */,
@@ -568,6 +619,7 @@
 				FB62DAA5276D10C40082F4ED /* InformationIndexController.swift in Sources */,
 				FB93C894277200670065998F /* InformationIndexCell.swift in Sources */,
 				FB2F01F3277116A8004B1603 /* ProhibitiveExtension.swift in Sources */,
+				FB049EAF2A5D7F810041A445 /* UserdefaultsManager.swift in Sources */,
 				FB6E133327844C38000982FB /* ShablonAController.swift in Sources */,
 				FB8E43D52764683100E0D344 /* Constants.swift in Sources */,
 				FBB7B714276CBE3E0051FA3D /* CommanderController.swift in Sources */,
@@ -720,7 +772,7 @@
 		};
 		FB0D71A7275BD97A0077D203 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA4218B99037131A3F60769A /* Pods-yol belgilari.debug.xcconfig */;
+			baseConfigurationReference = DA1BF9AF10F4B78D792E85DC /* Pods-yol belgilari.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -749,7 +801,7 @@
 		};
 		FB0D71A8275BD97A0077D203 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6692765E428115B39B7F6DF3 /* Pods-yol belgilari.release.xcconfig */;
+			baseConfigurationReference = 8B84EAFB99BB522DA7F2B88C /* Pods-yol belgilari.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
